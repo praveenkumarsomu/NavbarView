@@ -14,6 +14,8 @@
 		7F40F91F21FC5F55005F4210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F40F91D21FC5F55005F4210 /* LaunchScreen.storyboard */; };
 		7F40F92A21FC5F56005F4210 /* CustomNavBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F40F92921FC5F56005F4210 /* CustomNavBarTests.swift */; };
 		7F40F93521FC5F56005F4210 /* CustomNavBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F40F93421FC5F56005F4210 /* CustomNavBarUITests.swift */; };
+		7F40F94321FC5F7E005F4210 /* NavbarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F40F94221FC5F7E005F4210 /* NavbarView.xib */; };
+		7F40F94521FC610D005F4210 /* NavbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F40F94421FC610D005F4210 /* NavbarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7F40F93021FC5F56005F4210 /* CustomNavBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomNavBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F40F93421FC5F56005F4210 /* CustomNavBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarUITests.swift; sourceTree = "<group>"; };
 		7F40F93621FC5F56005F4210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F40F94221FC5F7E005F4210 /* NavbarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavbarView.xib; sourceTree = "<group>"; };
+		7F40F94421FC610D005F4210 /* NavbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavbarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				7F40F91421FC5F52005F4210 /* AppDelegate.swift */,
 				7F40F91621FC5F52005F4210 /* ViewController.swift */,
+				7F40F94421FC610D005F4210 /* NavbarView.swift */,
+				7F40F94221FC5F7E005F4210 /* NavbarView.xib */,
 				7F40F91821FC5F52005F4210 /* Main.storyboard */,
 				7F40F91B21FC5F55005F4210 /* Assets.xcassets */,
 				7F40F91D21FC5F55005F4210 /* LaunchScreen.storyboard */,
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F40F94321FC5F7E005F4210 /* NavbarView.xib in Resources */,
 				7F40F91F21FC5F55005F4210 /* LaunchScreen.storyboard in Resources */,
 				7F40F91C21FC5F55005F4210 /* Assets.xcassets in Resources */,
 				7F40F91A21FC5F52005F4210 /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			files = (
 				7F40F91721FC5F52005F4210 /* ViewController.swift in Sources */,
 				7F40F91521FC5F52005F4210 /* AppDelegate.swift in Sources */,
+				7F40F94521FC610D005F4210 /* NavbarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,11 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var customNavbarView: NavbarSuperView!    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setupNavbar()
     }
-
+    
+    func setupNavbar(){
+        customNavbarView.navbarView?.setUpTheme(title: "First Screen", subTitle: "Sub title ",showBackButton:false)
+    }
 
 }
 
